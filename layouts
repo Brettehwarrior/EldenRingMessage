@@ -1,0 +1,6 @@
+TEMPLATE: Choose from templates, replace **** with WORD
+CONJUNCTION: Choose from conjunctions
+WORD: Choose word from category
+
+MESSAGE: TEMPLATE
+MESSAGE: TEMPLATE CONJUNCTION TEMPLATE
