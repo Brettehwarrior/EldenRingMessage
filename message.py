@@ -32,6 +32,9 @@ class MessageFactory:
 
         return message_text
 
+def messages()->dict:
+    """Returns the dictionary representation of messages"""
+    return json.load(open('messages.json', 'r'))
 
 if __name__ == '__main__':
     with open('messages.json', 'r') as file:
