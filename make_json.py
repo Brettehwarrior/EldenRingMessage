@@ -1,7 +1,8 @@
 import json
+import string
 
 templates = open('templates.txt', 'r').read().splitlines()
-conjunctions = open('conjunctions.txt', 'r').read().splitlines()
+conjunctions = [s+'\n' if s in string.punctuation else '\n'+s for s in open('conjunctions.txt', 'r').read().splitlines()]
 word_lines = open('words.txt', 'r').read().splitlines()
 words = {}
 curr_category = ''

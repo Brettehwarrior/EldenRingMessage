@@ -26,16 +26,16 @@
         "****..."
     ],
     "conjunctions": [
-        "and then",
-        "or",
-        "but",
-        "therefore",
-        "in short",
-        "except",
-        "by the way",
-        "so to speak",
-        "all the more",
-        ","
+        "\nand then",
+        "\nor",
+        "\nbut",
+        "\ntherefore",
+        "\nin short",
+        "\nexcept",
+        "\nby the way",
+        "\nso to speak",
+        "\nall the more",
+        ",\n"
     ],
     "words": {
         "enemies": [

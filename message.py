@@ -28,9 +28,9 @@ class MessageFactory:
             if s == 'T':
                 message_text += self.template()
             elif s == 'C':
-                message_text += ' ' + self.conjunction() + '\n'
+                message_text += self.conjunction() + ' '
 
-        return message_text + '\n'
+        return message_text
 
 
 if __name__ == '__main__':
@@ -39,5 +39,5 @@ if __name__ == '__main__':
         factory = MessageFactory(messages)
 
         for i in range(10):
-            print(factory.message())
+            print(factory.message() + '\n')
 
