@@ -1,5 +1,7 @@
 import json
 import random
+import os
+PATH = os.path.dirname(os.path.realpath(__file__))
 
 class MessageFactory:
     def __init__(self, messages):
@@ -34,7 +36,7 @@ class MessageFactory:
 
 def messages()->dict:
     """Returns the dictionary representation of messages"""
-    return json.load(open('messages.json', 'r'))
+    return json.load(open(PATH+'\\messages.json', 'r'))
 
 if __name__ == '__main__':
     with open('messages.json', 'r') as file:
